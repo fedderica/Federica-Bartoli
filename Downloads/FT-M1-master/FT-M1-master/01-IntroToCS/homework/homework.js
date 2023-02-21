@@ -6,7 +6,7 @@ function BinarioADecimal(num) {
   var suma = 0;
   for (let i = 0; i < num.length; i++) {
     suma = suma + 2**i*num[i];
-  }
+  } 
   return suma;
   
   }
